@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Lobster');
+
+/* Menu de Navegacao*/
+.navbar-default {
+	background-color: #2E7D32;
+	font-family: 'Pacifico', cursive;
+	font-weight: 500;
+}
+.navbar-brand, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #FFF;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand:visited, .navbar-default .navbar-brand:hover{
+	color: #FFF;
+	/*font-family: 'Lobster', cursive;*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #FFF;
+	color: #2E7D32;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover > .fa.fa-bars{
+	background-color: #FFF;
+	color: #2E7D32;
+}
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+.fa.fa-bars{
+	color: #FFF;
+}
+
+/*Painel*/
+#painel{
+	margin-top: 60px;
+}
+.panel-success>.panel-heading {
+    color: #FFF;
+    background-color: #2E7D32;
+    border-color: #d6e9c6;
+}
+
+/*Conteudo*/
+ul {
+  list-style-type: none;
+}
+h2, h4{
+	font-family: 'Pacifico', cursive;
+	font-weight: 500;
+}
+.fa{
+	color: #2E7D32;
+}
