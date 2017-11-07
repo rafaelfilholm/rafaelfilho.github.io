@@ -1,4 +1,5 @@
 $(function () {
+	
 	$(".twitter").hover(function () {$(".social-container-wrap").toggleClass("color-twitter")});
 	$(".facebook").hover(function () {$(".social-container-wrap").toggleClass("color-facebook")});
 	$(".googleplus").hover(function () {$(".social-container-wrap").toggleClass("color-googleplus")});
@@ -8,4 +9,5 @@ $(function () {
 	$(".codepen").hover(function () { $(".social-container-wrap").toggleClass("color-codepen") });
 	$(".envelope").hover(function () { $(".social-container-wrap").toggleClass("color-envelope") });
 	$(".linkedin").hover(function () { $(".social-container-wrap").toggleClass("color-linkedin") });
+
 });
