@@ -6,7 +6,7 @@ $(function () {
 	$(".pinterest").hover(function () {$(".social-container-wrap").toggleClass("color-pinterest")});
 	$(".dribbble").hover(function () {$(".social-container-wrap").toggleClass("color-dribbble")});
 	$(".instagram").hover(function () { $(".social-container-wrap").toggleClass("color-instagram") });
-	$(".codepen").hover(function () { $(".social-container-wrap").toggleClass("color-codepen") });
+	$(".github").hover(function () { $(".social-container-wrap").toggleClass("color-github") });
 	$(".envelope").hover(function () { $(".social-container-wrap").toggleClass("color-envelope") });
 	$(".linkedin").hover(function () { $(".social-container-wrap").toggleClass("color-linkedin") });
 
