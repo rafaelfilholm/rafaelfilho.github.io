@@ -2,7 +2,7 @@
 
 /* Menu de Navegacao*/
 .navbar-default {
-	background-color: #2E7D32;
+	background-color: #00C853;
 	font-family: 'Pacifico', cursive;
 	font-weight: 500;
 }
@@ -14,37 +14,46 @@
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #FFF;
-	color: #2E7D32;
+	color: #00C853;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: #FFF;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover > .fa.fa-bars{
-	background-color: #FFF;
-	color: #2E7D32;
+	color: #00C853;
 }
 .navbar-default .navbar-toggle {
-    border-color: #FFF;
+	border-color: #FFF;
 }
 .fa.fa-bars{
 	color: #FFF;
 }
 
 /*Painel*/
-#painel{
+.panel-group{
 	margin-top: 60px;
 }
 .panel-success>.panel-heading {
-    color: #FFF;
-    background-color: #2E7D32;
-    border-color: #d6e9c6;
+	color: #FFF;
+	background-color: #00C853;
+	border-color: #d6e9c6;
 }
 
 /*Conteudo*/
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 h2, h4{
 	font-family: 'Pacifico', cursive;
 	font-weight: 500;
 }
 .fa{
-	color: #2E7D32;
+	color: #00C853;
+}
+.panel-footer, .panel-footer a{
+	color: #004D40;
+	font-weight: 600;
+}
+.panel-footer a{
+	text-decoration: none;
 }
