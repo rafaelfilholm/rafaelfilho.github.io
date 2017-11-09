@@ -7,7 +7,7 @@ $(function () {
 	$(".dribbble").hover(function () {$(".social-container-wrap").toggleClass("color-dribbble")});
 	$(".instagram").hover(function () { $(".social-container-wrap").toggleClass("color-instagram") });
 	$(".github").hover(function () { $(".social-container-wrap").toggleClass("color-github") });
-	$(".envelope").hover(function () { $(".social-container-wrap").toggleClass("color-envelope") });
+	$(".whatsapp").hover(function () { $(".social-container-wrap").toggleClass("color-whatsapp") });
 	$(".linkedin").hover(function () { $(".social-container-wrap").toggleClass("color-linkedin") });
 
 });
