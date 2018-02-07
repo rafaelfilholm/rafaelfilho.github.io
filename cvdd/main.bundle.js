@@ -244,7 +244,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".jumbotron{\r\n    background: url('/cvdd/assets/background.jpg');\r\n    background-size: cover;\r\n    padding: 1em;\r\n    text-align: center;\r\n}\r\n\r\n.image-perfil{\r\n    width: 200px;\r\n}\r\n\r\n.card{\r\n    text-align: center;\r\n    padding: 20px;\r\n}\r\n\r\n.card .fa{\r\n    color: #345C41;\r\n}", ""]);
 
 // exports
 
@@ -257,7 +257,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/creditos/creditos.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron text-center\">\r\n  <h1>CreditosComponent</h1>\r\n</div>"
+module.exports = "<div class=\"jumbotron\">\r\n  <img src=\"/assets/rafael-filho.jpg\" class=\"rounded-circle image-perfil\">\r\n  <h2>Rafael Filho</h2>\r\n</div>\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-md-4\">\r\n      <div class=\"card\" style=\"width: 20rem;\">\r\n        <div class=\"card-block\">\r\n          <h4 class=\"card-title\">Linkedin</h4>\r\n          <p class=\"card-text\"><a href=\"https://www.linkedin.com/in/rafaelfilholm\">@rafaelfilholm</a></p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-md-4\">\r\n      <div class=\"card\" style=\"width: 20rem;\">\r\n        <div class=\"card-block\">\r\n          <h4 class=\"card-title\">Twitter</h4>\r\n          <p class=\"card-text\"><a href=\"https://www.twitter.com/rafaelfilholm\">@rafaelfilholm</a></p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-md-4\">\r\n      <div class=\"card\" style=\"width: 20rem;\">\r\n        <div class=\"card-block\">\r\n          <h4 class=\"card-title\">Github</h4>\r\n          <p class=\"card-text\"><a href=\"https://www.github.com/rafaelfilholm\">@rafaelfilholm</a></p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -305,7 +305,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".jumbotron{\r\n    text-align: center;\r\n}\r\n.card{\r\n    text-align: center;\r\n    padding: 20px;\r\n}\r\n.card .fa{\r\n    color: #345C41;\r\n}", ""]);
 
 // exports
 
@@ -318,7 +318,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron text-center\">\r\n  <h1>HomeComponent</h1>\r\n</div>"
+module.exports = "<div class=\"jumbotron\">\r\n  <h2>CVDD APP</h2>\r\n</div>\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-md-4\">\r\n      <div class=\"card\" style=\"width: 20rem;\">\r\n        <i class=\"fa fa-paper-plane fa-5x\"></i>\r\n        <div class=\"card-block\">\r\n          <h4 class=\"card-title\">Produtividade</h4>\r\n          <p class=\"card-text\">Mais produtividade nos serviços de gerência.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-md-4\">\r\n      <div class=\"card\" style=\"width: 20rem;\">\r\n        <i class=\"fa fa-mobile fa-5x\"></i>\r\n        <div class=\"card-block\">\r\n          <h4 class=\"card-title\">Portabilidade</h4>\r\n          <p class=\"card-text\">Acesso a partir de qualquer plataforma.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-md-4\">\r\n      <div class=\"card\" style=\"width: 20rem;\">\r\n        <i class=\"fa fa-smile-o fa-5x\"></i>\r\n        <div class=\"card-block\">\r\n          <h4 class=\"card-title\">Usabilidade</h4>\r\n          <p class=\"card-text\">Fácil usabilidade, prezando a experiência do usuário.</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
